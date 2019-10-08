@@ -12,3 +12,22 @@ body {
     padding: 0;
     margin: 0;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.block { display: block; }
+.fw { width: 100%; }
+
+/* Текст */
+.ta-center { text-align: center; }
+.ta-left { text-align: left; }
+.ta-right { text-align: right; }
+
+.bold { font-weight: bold; }
+
+/* Цвет */
+.grey { color: #ABB2B9; }
+.green { color: #4abfb4; }
