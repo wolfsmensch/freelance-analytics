@@ -1,0 +1,24 @@
+header {
+    padding: 12px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+
+header h1 {
+    display: inline-block;
+
+    margin: 0;
+
+    font-size: inherit;
+    font-weight: 400;
+}
+
+header .inline-menu .menu-item { 
+    display: inline-block;
+    cursor: pointer;
+}
+
+header .inline-menu .menu-item:hover, 
+header .inline-menu .menu-item:active { color: #3498DB; }
+header .inline-menu .menu-item:active { transform: scale(0.9); }
