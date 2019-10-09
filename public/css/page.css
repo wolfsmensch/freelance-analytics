@@ -18,6 +18,8 @@ a {
     text-decoration: none;
 }
 
+a:hover { color: #3498DB; }
+
 
 .block { display: block; }
 .fw { width: 100%; }
