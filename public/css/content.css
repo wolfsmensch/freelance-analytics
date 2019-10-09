@@ -1,4 +1,10 @@
 .table-head {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
+
+.table-head .table-head-caption { cursor: pointer; }
+.table-head .table-head-caption:hover,
+.table-head .table-head-caption:active { color: #3498DB; }
+
+.table-head .sort-icon { margin-left: 5px; }
