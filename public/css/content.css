@@ -1,3 +1,4 @@
+/* Шапка таблицы */
 .table-head {
     font-size: 14px;
     margin-bottom: 10px;
@@ -7,4 +8,31 @@
 .table-head .table-head-caption:hover,
 .table-head .table-head-caption:active { color: #3498DB; }
 
+.table-head .table-head-caption:first-child { padding-left: 25px; }
+
 .table-head .sort-icon { margin-left: 5px; }
+
+/* Элементы таблицы */
+.table-row {
+    background: #FFF;
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.table-row:hover {
+    background: #3498DB;
+
+    animation: table-row-selected 0.5s forwards;
+}
+
+.table-row:hover,
+.table-row:hover .green { color: #FFF; }
+
+@keyframes table-row-selected {
+    from { transform: scale(1); }
+    to { transform: scale(1.05); }
+}
